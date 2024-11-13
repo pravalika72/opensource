@@ -1,0 +1,6 @@
+x=int(input())
+for i in range(x):
+    n,m=map(int,input().split())
+    a=n//10
+    b=a*m
+    print(b)
