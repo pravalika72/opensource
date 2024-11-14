@@ -1,0 +1,7 @@
+x=int(input())
+a=x//10
+b=100
+if a>b:
+    print(x-a)
+else:
+    print(x-b)
